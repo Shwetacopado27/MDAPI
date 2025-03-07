@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>copado_envmgr__ApexCode__c</fullName>
+        <defaultValue>&quot;User user = new User();&quot; &amp;BR()&amp; &quot;user.ProfileId = [SELECT Id FROM Profile WHERE Name = &apos;Standard User&apos;].Id;&quot; &amp;BR()&amp; &quot;user.LastName = &apos;USERNAME&apos;;&quot; &amp;BR()&amp; &quot;user.Email = &apos;EMAIL&apos;;&quot; &amp;BR()&amp; &quot;user.Username = &apos;USERNAME&apos;;&quot; &amp;BR()&amp; &quot;user.Alias = &apos;nr&apos;;&quot; &amp;BR()&amp; &quot;user.TimeZoneSidKey = &apos;America/Los_Angeles&apos;;&quot; &amp;BR()&amp; &quot;user.EmailEncodingKey = &apos;UTF-8&apos;;&quot; &amp;BR()&amp; &quot;user.LanguageLocaleKey = &apos;en_US&apos;;&quot; &amp;BR()&amp; &quot;user.LocaleSidKey = &apos;en_US&apos;;&quot; &amp;BR()&amp; &quot;insert user;&quot; &amp;BR()&amp; &quot;System.resetPassword(user.Id, true);&quot; &amp;BR()&amp; &quot;&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This Apex code will be executed when creating a User for an Environment.
+You can not only create the user, but assign profiles, permissionsets, licenses, and any other need.</description>
+        <inlineHelpText>This Apex code will be executed when creating a User for an Environment.
+You can not only create the user, but assign profiles, permissionsets, licenses, and any other need.</inlineHelpText>
+        <label>Apex Code</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__DefinitionJson__c</fullName>
+        <defaultValue>&quot;{}&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>User Definition JSON. See Salesforce user creation definition json for details.</description>
+        <inlineHelpText>User Definition JSON. See Salesforce user creation definition json for details.</inlineHelpText>
+        <label>Definition Json</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__DeleteJobTemplate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Delete Job Template</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
+        <relationshipLabel>Environment Personas (Delete Job Template)</relationshipLabel>
+        <relationshipName>Environment_Personas1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__EnvironmentDefinition__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Environment Definition</label>
+        <referenceTo>copado_envmgr__EnvironmentDefinition__c</referenceTo>
+        <relationshipLabel>Environment Personas</relationshipLabel>
+        <relationshipName>Environment_Personas</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__ExpirationDays__c</fullName>
+        <defaultValue>30</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Expiration days after creating the User</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Expiration days after creating the User</inlineHelpText>
+        <label>Expiration (Days)</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__JobTemplate__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Customizable Job Template that will be executed when requesting a new Persona</description>
+        <inlineHelpText>Customizable Job Template that will be executed when requesting a new Persona</inlineHelpText>
+        <label>Create Job Template</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
+        <relationshipLabel>Environment Personas</relationshipLabel>
+        <relationshipName>Environment_Personas</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__Username__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Desired username pattern. You can use special variables such as {!RANDOM} to insert a 4 digit random number: 
+
+qauser-{!RANDOM}@copado.com or qauser@copado.com.user{!RANDOM}</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Desired username pattern. You can use special variables such as {!RANDOM} to insert a 4 digit random number: 
+
+qauser-{!RANDOM}@copado.com or qauser@copado.com.user{!RANDOM}</inlineHelpText>
+        <label>Username</label>
+        <length>85</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Environment Persona</label>
+    <nameField>
+        <label>EnvironmentPersona Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Environment Personas</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EPC Target Environment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EPC Target Environments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Template --></label>
+        <name>Configuration__c</name>
+        <relationshipLabel><!-- EPC Target Environments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Environment Name --></label>
+        <name>Environment_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Environment --></label>
+        <name>Environment__c</name>
+        <relationshipLabel><!-- EPC Target Environments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Job Execution --></label>
+        <name>Last_Job_Execution__c</name>
+        <relationshipLabel><!-- EPC Target Environments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Status --></label>
+        <name>Last_Status__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Vlocity EPC Deploy Destination Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Real-time logs of Vlocity EPC --></label>
+        <name>Real_time_logs_of_Vlocity_EPC</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

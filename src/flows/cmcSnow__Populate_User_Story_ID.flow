@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <description>If User story platform is &apos;ServiceNow&apos; then 
+1. Populate User Story Id = Id, on User Story Creation if, Copado User Story .External Id has any value.
+2. Populate Credentials of US</description>
+    <environments>Default</environments>
+    <label>Populate User Story ID</label>
+    <processType>AutoLaunchedFlow</processType>
+</Flow>

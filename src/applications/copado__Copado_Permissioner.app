@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>copado__Persona__c</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Copado Permissioner</label>
+    <tabs>copado__Persona__c</tabs>
+    <tabs>copado__Permission_Set_Explorer</tabs>
+    <tabs>copado__Compliance_Rule_Criteria__c</tabs>
+    <tabs>copado__Static_Code_Analysis_Violation__c</tabs>
+    <tabs>copado__Automation_Event__c</tabs>
+</CustomApplication>

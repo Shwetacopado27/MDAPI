@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>User_Story_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>copado__User_Story__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>User_Story_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>copado__User_Story__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Copado Explorer</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Analytics Cloud Integration User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Analytics Cloud Integration User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Chatter External User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Analytics Cloud Security User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Analytics Cloud Security User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Chatter External User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pipeline_Record_Page_Multicloud2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>copado__Deployment_Flow__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <tabs>copado__Project__c</tabs>
+    <tabs>copado__Application_Feature__c</tabs>
+    <tabs>copado__Epic__c</tabs>
+    <tabs>copado__User_Story__c</tabs>
+    <tabs>copadoQuality__Functional_Review__c</tabs>
+    <tabs>copado__Org__c</tabs>
+    <tabs>copado__Environment__c</tabs>
+    <tabs>copado__Account_Summary</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>copadoQuality__Copado_Explorer_UtilityBar</utilityBar>
+</CustomApplication>

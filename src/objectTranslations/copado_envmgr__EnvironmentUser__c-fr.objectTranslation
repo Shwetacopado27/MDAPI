@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Credential --></label>
+        <name>copado_envmgr__Credential__c</name>
+        <relationshipLabel><!-- Environment Users --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Environment Org --></label>
+        <name>copado_envmgr__EnvironmentOrg__c</name>
+        <relationshipLabel><!-- Environment Users --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Environment Persona --></label>
+        <name>copado_envmgr__EnvironmentPersona__c</name>
+        <relationshipLabel><!-- Environment Users --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>copado_envmgr__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Expired? --></label>
+        <name>copado_envmgr__IsExpired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Job Execution Id --></label>
+        <name>copado_envmgr__LastJobExecutionId__c</name>
+        <relationshipLabel><!-- Last Job Executions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado_envmgr__Status__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation><!-- Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Use</masterLabel>
+            <translation><!-- In Use --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Environment User Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Deactivate User --></label>
+        <name>copado_envmgr__Deactivate_User</name>
+    </quickActions>
+</CustomObjectTranslation>

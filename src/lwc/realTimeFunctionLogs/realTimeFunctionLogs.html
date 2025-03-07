@@ -1,0 +1,20 @@
+<template>
+
+    <lightning-record-view-form record-id={recordId} object-api-name="copado__Result__c" onload={handleRecorViewOnload}>
+
+        <lightning-output-field field-name="copado__Result_Data__c" variant="label-hidden"> </lightning-output-field>
+
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-3">
+                <lightning-output-field field-name="LastModifiedDate"> </lightning-output-field>
+            </div>
+            <div class="slds-col slds-size_1-of-4">
+                <lightning-output-field field-name="copado__Status__c"> </lightning-output-field>
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <lightning-output-field field-name="copado__Progress_Status__c"> </lightning-output-field>
+            </div>
+        </div>
+    </lightning-record-view-form>
+    <span data-id="logs" ></span>
+</template>

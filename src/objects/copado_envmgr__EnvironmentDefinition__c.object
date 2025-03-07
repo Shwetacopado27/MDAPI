@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Definition of Sandboxes or Scratch Orgs</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>copado_envmgr__ApexAfterMetadataDeployment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Anonymous Apex code to be executed after all the Metadata has been deployed</description>
+        <inlineHelpText>Anonymous Apex code to be executed after all the Metadata has been deployed</inlineHelpText>
+        <label>Apex After Metadata Deployment</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__ApexAfterOrgCreation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Anonymous Apex code to be executed after Sandbox/Scratch Org Creation</description>
+        <inlineHelpText>Anonymous Apex code to be executed after Sandbox/Scratch Org Creation</inlineHelpText>
+        <label>Apex After Org Creation</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__ApexAfterPackageInstallation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Anonymous Apex code to be executed after all the Salesforce Packages are installed</description>
+        <inlineHelpText>Anonymous Apex code to be executed after all the Salesforce Packages are installed</inlineHelpText>
+        <label>Apex After Package Installation</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__AvailableOrgs__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Available Orgs</label>
+        <summaryFilterItems>
+            <field>copado_envmgr__EnvironmentOrg__c.copado_envmgr__Status__c</field>
+            <operation>equals</operation>
+            <value>Available</value>
+        </summaryFilterItems>
+        <summaryForeignKey>copado_envmgr__EnvironmentOrg__c.copado_envmgr__EnvironmentDefinition__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__DefaultBranch__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default branch where the metadata will be taken. It must be part of the Project/Pipeline related to this Environment, or empty (meaning that no deployment will be run)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default branch where the metadata will be taken. It must be part of the Project/Pipeline related to this Environment, or empty (meaning that no deployment will be run)</inlineHelpText>
+        <label>Source Branch of the Metadata</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__DefinitionJson__c</fullName>
+        <defaultValue>&quot;{&quot; &amp;BR()&amp;
+&quot;     \&quot;sandboxName\&quot;: \&quot;deveopment-org-{&quot;&amp;&quot;!&quot;&amp;&quot;RANDOM}\&quot;,&quot; &amp;BR()&amp;
+&quot;     \&quot;licenseType\&quot;: \&quot;Developer\&quot;,&quot; &amp;BR()&amp;
+&quot;     \&quot;autoActivate\&quot;: true&quot; &amp;BR()&amp;
+&quot;}&quot; &amp;BR()</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Sandbox or Scratch Org JSON. See Salesforce documentation for details</description>
+        <inlineHelpText>Sandbox or Scratch Org JSON. See Salesforce documentation for details</inlineHelpText>
+        <label>Definition Json</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__DeleteJobTemplate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Delete Job Template</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
+        <relationshipLabel>Environment Definitions (Delete Job Template)</relationshipLabel>
+        <relationshipName>Environment_Definitions1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__DesiredAvailableOrgs__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Set this value if you want to create a pool of available Orgs. Every time an Org is used, a new org will be created behind the scenes, so the next time an org is desired, it is already available.
+
+If this is not set, the Enviroments will be created on-demand</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set this value if you want to create a pool of available Orgs. Every time an Org is used, a new org will be created behind the scenes, so the next time an org is desired, it is already available.
+
+If this is not set, the Enviroments will be created on-demand</inlineHelpText>
+        <label>Number of desired Available Orgs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__ExpirationDays__c</fullName>
+        <defaultValue>30</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Expiration date you desire for this Sandbox or Scratch Org. For Scratch Orgs Expiration must be less than 30 days.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Expiration date you desire for this Sandbox or Scratch Org. For Scratch Orgs Expiration must be less than 30 days.</inlineHelpText>
+        <label>Expiration (Days)</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__Git_Repository__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>copado_envmgr__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__c</formula>
+        <label>Git Repository</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__JobTemplate__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Customizable Job Template that will be executed when requesting a new Environment</description>
+        <inlineHelpText>Customizable Job Template that will be executed when requesting a new Environment</inlineHelpText>
+        <label>Create Job Template</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
+        <relationshipLabel>Environment Definitions</relationshipLabel>
+        <relationshipName>Environment_Definitions</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__OrgType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Org Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sandbox</fullName>
+                    <default>true</default>
+                    <label>Sandbox</label>
+                </value>
+                <value>
+                    <fullName>Scratch Org</fullName>
+                    <default>false</default>
+                    <label>Scratch Org</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__PackageInstallationJson__c</fullName>
+        <deprecated>false</deprecated>
+        <description>JSON in the format {&quot;package id&quot;: {&quot;name&quot;: &quot;package name and version&quot;, &quot;installation-key&quot;: &quot;&quot;, ... } Remember: package ID&apos;s are the ones starting with &quot;04t&quot;</description>
+        <inlineHelpText>JSON in the format {&quot;package id&quot;: {&quot;name&quot;: &quot;package name and version&quot;, &quot;installation-key&quot;: &quot;&quot;, ... } Remember: package ID&apos;s are the ones starting with &quot;04t&quot;</inlineHelpText>
+        <label>Package Installation Json</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__ParentEnvironment__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Sandbox Parent or DevHub Environment</description>
+        <inlineHelpText>Sandbox Parent or DevHub Environment</inlineHelpText>
+        <label>Parent Environment</label>
+        <referenceTo>copado__Environment__c</referenceTo>
+        <relationshipLabel>Environment Definitions</relationshipLabel>
+        <relationshipName>Environment_Definitions</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__PipelineDestinationEnvId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Destination Environment in Pipeline</label>
+        <referenceTo>copado__Environment__c</referenceTo>
+        <relationshipLabel>Environment Definitions (Destination Environment in Pipeline)</relationshipLabel>
+        <relationshipName>Environment_Definitions1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__Pipeline__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>copado_envmgr__Project__r.copado__Deployment_Flow__c</formula>
+        <label>Pipeline</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__Project__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Project</label>
+        <referenceTo>copado__Project__c</referenceTo>
+        <relationshipLabel>EnvironmentDefinitions</relationshipLabel>
+        <relationshipName>EnvironmentDefinitions</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado_envmgr__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Only &quot;Ready&quot; environment definitions can be used by regular Users, and &quot;Developing&quot; only mocks the creation of Orgs (see the documentation for details).</description>
+        <inlineHelpText>Only &quot;Ready&quot; environment definitions can be used by regular Users, and &quot;Developing&quot; only mocks the creation of Orgs (see the documentation for details).</inlineHelpText>
+        <label>Status</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Developing</fullName>
+                    <default>true</default>
+                    <label>Developing</label>
+                </value>
+                <value>
+                    <fullName>Testing</fullName>
+                    <default>false</default>
+                    <label>Testing</label>
+                </value>
+                <value>
+                    <fullName>Ready</fullName>
+                    <default>false</default>
+                    <label>Ready</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Environment Definition</label>
+    <listViews>
+        <fullName>copado_envmgr__All</fullName>
+        <columns>NAME</columns>
+        <columns>copado_envmgr__OrgType__c</columns>
+        <columns>copado_envmgr__ExpirationDays__c</columns>
+        <columns>copado_envmgr__DefaultBranch__c</columns>
+        <columns>copado_envmgr__Project__c</columns>
+        <columns>copado_envmgr__JobTemplate__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Environment Definition Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Environment Definitions</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>copado_envmgr__OrgType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado_envmgr__ParentEnvironment__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado_envmgr__Project__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado_envmgr__ExpirationDays__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado_envmgr__DefaultBranch__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

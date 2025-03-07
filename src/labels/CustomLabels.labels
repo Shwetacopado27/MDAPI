@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Job_Step_Name_CheckMarx</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CheckMarx Job Step Name</shortDescription>
+        <value>CheckMarx</value>
+    </labels>
+</CustomLabels>

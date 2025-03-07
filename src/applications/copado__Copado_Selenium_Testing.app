@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>copado__SeleniumGettingStarted</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Copado Selenium Testing</label>
+    <tabs>copado__SeleniumGettingStarted</tabs>
+    <tabs>copado__Selenium_Test_Case__c</tabs>
+    <tabs>copado__Selenium_Test_Suite__c</tabs>
+    <tabs>copado__Selenium_Test_Run__c</tabs>
+    <tabs>copado__Selenium_Test_Group__c</tabs>
+    <tabs>copado__Selenium_Settings__c</tabs>
+    <tabs>copado__Org__c</tabs>
+    <tabs>copado__Account_Summary</tabs>
+    <tabs>copado__Scheduled_Job__c</tabs>
+    <tabs>copado__Selenium_Locator__c</tabs>
+    <tabs>copado__Compliance_Rule_Criteria__c</tabs>
+    <tabs>copado__Static_Code_Analysis_Violation__c</tabs>
+    <tabs>copado__Automation_Event__c</tabs>
+</CustomApplication>

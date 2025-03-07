@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Environment Definition --></label>
+        <name>copado_envmgr__EnvironmentDefinition__c</name>
+        <relationshipLabel><!-- Environment Orgs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Environment --></label>
+        <name>copado_envmgr__Environment__c</name>
+        <relationshipLabel><!-- Environment Orgs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ExpirationDate --></label>
+        <name>copado_envmgr__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Expired? --></label>
+        <name>copado_envmgr__IsExpired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Job Execution Id --></label>
+        <name>copado_envmgr__LastJobExecutionId__c</name>
+        <relationshipLabel><!-- Environment Orgs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Salesforce Org Id, used as an External ID that must match copado__Environment__r.copado__Org_ID__c --></help>
+        <label><!-- OrgId --></label>
+        <name>copado_envmgr__OrgId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado_envmgr__Status__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation><!-- Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creating</masterLabel>
+            <translation><!-- Creating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Use</masterLabel>
+            <translation><!-- In Use --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Environment Org Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create User --></label>
+        <name>copado_envmgr__Create_User</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Delete Org --></label>
+        <name>copado_envmgr__Delete_Org</name>
+    </quickActions>
+</CustomObjectTranslation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EPC Deployment Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EPC Deployment Templates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Pipeline --></label>
+        <name>Pipeline__c</name>
+        <relationshipLabel><!-- EPC Deployment Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Branch --></label>
+        <name>Source_Branch__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Vlocity EPC Deploy Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Source --></label>
+            <section>Source</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Execute Vlocity EPC Deployments --></label>
+        <name>Execute_Vlocity_EPC_Deployments</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Quick_Deploy --></label>
+        <name>Quick_Deploy</name>
+    </webLinks>
+</CustomObjectTranslation>
