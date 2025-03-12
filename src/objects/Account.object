@@ -349,6 +349,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>MD_demo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>MD_demo</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
