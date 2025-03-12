@@ -320,6 +320,14 @@
         <type>Summary</type>
     </fields>
     <fields>
+        <fullName>Demo2_MD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Demo2_MD</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
