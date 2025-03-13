@@ -121,6 +121,18 @@
                 <identifier>RecordTotal_Contacts_Count_c__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.MD_demo__c</fieldItem>
+                <identifier>RecordMD_demo__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Demo2_MD__c</fieldItem>
+                <identifier>RecordDemo2_MD__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-de656d25-a341-401f-8ab8-d72cefdfd063</name>
         <type>Facet</type>
     </flexiPageRegions>
