@@ -291,15 +291,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>Cigna_Demo__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>This is for testing</description>
-        <label>Cigna_Demo</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Client_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <label>Contact</label>

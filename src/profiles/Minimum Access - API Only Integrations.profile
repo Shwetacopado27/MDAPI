@@ -12197,11 +12197,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.Cigna_Demo__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Account.Client_Contact__c</field>
         <readable>false</readable>
     </fieldPermissions>
