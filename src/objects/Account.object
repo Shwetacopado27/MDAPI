@@ -321,7 +321,9 @@
     </fields>
     <fields>
         <fullName>Demo2_MD__c</fullName>
-        <defaultValue>false</defaultValue>
+        <defaultValue>true</defaultValue>
+        <description>sssssss</description>
+        <inlineHelpText>ssssssss</inlineHelpText>
         <label>Demo2_MD</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -359,6 +361,8 @@
     <fields>
         <fullName>MD_demo__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>sdgfsgesfg</description>
+        <inlineHelpText>cscdsvcdsvds</inlineHelpText>
         <label>MD_demo</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
