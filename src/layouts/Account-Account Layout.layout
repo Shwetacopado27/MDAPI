@@ -73,6 +73,10 @@
                 <behavior>Edit</behavior>
                 <field>Demo2_MD__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>demo5555__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
