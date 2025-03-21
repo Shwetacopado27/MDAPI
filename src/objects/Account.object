@@ -320,6 +320,16 @@
         <type>Summary</type>
     </fields>
     <fields>
+        <fullName>Demo2_MD__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>sssssss</description>
+        <inlineHelpText>ssssssss</inlineHelpText>
+        <label>Demo2_MD</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -494,6 +504,14 @@
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>demo5555__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>demo5555</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>external_Id__c</fullName>
